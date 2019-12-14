@@ -1,0 +1,24 @@
+.home-content {
+    margin-right: 300px;
+    padding: 80px 10px 0px 10px;
+}
+
+.home-backtop {
+    position: fixed;
+    right: 320px;
+}
+
+@media screen and (max-width: 1000px) {
+    .home-sider {
+        display: none;
+    }
+    .home-content {
+        padding: 0;
+        margin-right: 0;
+        margin-top: 50px;
+        margin-bottom: 0;
+    }
+    .home-backtop {
+        right: 10px;
+    }
+}

@@ -1,0 +1,55 @@
+.card-style {
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.text-box {
+    margin-top: 20px;
+}
+
+.text-yiyan {
+    margin-top: 10px;
+    font-size: small;
+    text-align: left;
+    font-weight: 300;
+}
+
+.text-info {
+    margin-top: 20px;
+}
+
+.text-email {
+    margin-top: 10px;
+    font-size: medium;
+    text-align: left;
+    font-weight: 300;
+}
+
+.card-margin {
+    margin-bottom: 20px;
+}
+
+.inner-mb {
+    display: none;
+    padding: 0;
+}
+
+li:hover {
+    color: blueviolet;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+    .inner-pc {
+        display: none;
+    }
+    .inner-mb {
+        display: inline;
+    }
+}

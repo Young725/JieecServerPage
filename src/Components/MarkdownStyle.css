@@ -1,0 +1,65 @@
+:root {
+    --fs: 3px;
+}
+
+.header-container {
+    position: fixed;
+    right: 30px;
+}
+
+.header-mob-container {
+    position: fixed;
+    right: 10px;
+    top: 130px;
+    display: none;
+}
+
+/* 小于500px不加载pc的 */
+@media screen and (max-width: 700px) {
+    .header-container {
+        display: none;
+    }
+
+    .header-mob-container {
+        display: inline;
+    }
+}
+
+.headings{
+    text-align: left;
+    padding-left: 5px;
+    margin: 0;
+    list-style: circle;
+}
+
+.headings-1 {
+    font-size: calc(6 * var(--fs));
+}
+
+.headings-2 {
+    font-size: calc(5 * var(--fs));
+}
+
+.headings-3 {
+    font-size: calc(4 * var(--fs));
+}
+
+.headings-4 {
+    font-size: calc(3 * var(--fs));
+}
+
+.headings-5 {
+    font-size: calc(2 * var(--fs));
+}
+
+.headings-6 {
+    font-size: var(--fs);
+}
+
+a[class^='headings'] {
+    color: #1890ff;
+}
+
+a[class^='headings']:hover {
+    color: blueviolet;
+}
