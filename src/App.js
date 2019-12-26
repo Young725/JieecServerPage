@@ -105,7 +105,7 @@ class App extends Component {
             </Header>
             <Switch>
               <Route path='/' exact component={Home} />
-              <Route path='/docs' component={Docs} />
+              <Route path='/docs/' component={Docs} />
               <Route component={Error404} />
             </Switch>
           </Layout>
